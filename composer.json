@@ -1,0 +1,29 @@
+{
+  "name": "joespace/projects",
+  "version": "1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Joespace\\Projects\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yousif Aziz",
+      "email": "en.yousif.aziz@gmail.com"
+    }
+  ],
+  "require": {
+    "joespace/core": "^1.0",
+    "spatie/laravel-model-states": "^2.7",
+    "spatie/laravel-activitylog": "^4.8",
+    "spatie/laravel-schemaless-attributes": "^2.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Joespace\\Projects\\ProjectsServiceProvider"
+      ]
+    }
+  }
+}
